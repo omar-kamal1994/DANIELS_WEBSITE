@@ -1,0 +1,236 @@
+/* genel stayle */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+}
+
+.header-section h2::before {
+    content: '';
+    width: 15%;
+    height: 20px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -15px;
+
+}
+
+/* genel stayle  */
+
+/* start home section */
+main {
+    background-image: url(../img/bg.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+main .layer {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+main .layer .navbar .collapse ul li .active {
+    position: relative;
+}
+
+main .layer .navbar .collapse ul li .active::before {
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+}
+.bgcolor.scrolled 
+{
+    background-color: rgba(160, 160, 160, 0.5);
+    
+}
+
+
+/* end home section */
+
+
+/* start saction two About */
+
+
+.about .container .profile-img {
+    background-image: url(../img/dots.png);
+    width: 100%;
+    height: 80%;
+}
+
+.about .container .profile-img img {
+    transform: translate(40px, -100px);
+}
+
+.about .container .about-info .title-profile {
+    color: #999;
+    text-transform: uppercase;
+}
+
+.about .container .about-info .btn-one {
+    transition: .5s all;
+}
+
+.about .container .about-info .btn-two {
+    border: 1px solid black;
+    transition: .5s all;
+}
+
+.about .container .about-info .btn-one:hover {
+    background-color: #fff;
+    border: 1px solid black;
+    color: black;
+}
+
+.about .container .about-info .btn-two:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: #fff;
+}
+
+/* end saction two About */
+
+/* start saction two Services */
+
+
+.Services {
+    background-color: #f7f7f7;
+}
+
+.Services .container .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.Services .container .card .card-body .card-icon {
+    background-color: #f4f4f4;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+    transition: .5s all;
+
+}
+
+.Services .container .card .card-body .card-icon svg {
+    font-size: 25px;
+}
+
+.Services .container .card .card-body .card-icon:hover {
+    background-color: black;
+    color: #fff;
+}
+
+/* end saction two Services */
+
+
+
+
+/* Testimonials */
+
+.Testimonials .carousel-inner .carousel-item .img-container {
+    width: 90px;
+}
+
+
+.Testimonials .carousel-inner .carousel-item .img-carousel img {
+    border-radius: 50%;
+
+}
+
+/* Testimonials */
+
+.Testimonials {
+    background-color: #f7f7f7;
+}
+
+.Testimonials .carousel-indicators {
+    margin-top: 50px !important;
+    bottom: -50px !important;
+    text-align: center;
+}
+
+.portfolio .nav .nav-item  .test
+{
+    position: relative;
+}
+.portfolio .nav .nav-item .test::before
+{
+    content:"";
+    width:20px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 25px;
+
+
+}
+
+
+/* Testimonials */
+
+
+
+/* our-blog */
+
+.our-blog .card .card-body .read-more::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+}
+
+
+.client
+{
+    width: 20px;
+}
+.our-blog .row .card
+{
+    overflow: hidden;
+}
+.our-blog .row .card img
+{
+    transition: .5s all;
+}
+.our-blog .container .row .card img:hover 
+{
+    transform: scale(1.5,1);
+    background-color: #f7f7f7;
+}
+
+/* our-blog */
+.contact-form .container .contact-info .icon {
+    background-color: #f4f4f4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .5s all;
+}
+
+.contact-form .container .contact-info .icon svg {
+    background-color: #f4f4f4;
+    margin: auto;
+    border-radius: 50%;
+    transition: .5s all;
+    font-size: 25px;
+}
+
+
+.contact-form .container .contact-info:hover .icon {
+    background-color: #000;
+    
+}
+.contact-form .container .contact-info:hover svg {
+    background-color: #000;
+    color: #fff;
+}
